@@ -1,24 +1,41 @@
 # Encryption-Decryption-Project
 ---
- This project implements an image encryption/decryption mechanism
+ This project implements an image encryption/decryption mechanism.
+ 
+ ![Capture](https://user-images.githubusercontent.com/49486605/75119560-a7de5f00-568c-11ea-9d28-3bcb832ba485.PNG)
+
  
 ## The first part: Encryption
- The project receives one txt file that contains the path to an image and a name for the future encrypted image.
+ The project receives one txt file that contains the path to an image, a name for the future encrypted image and the secret key used in the encryption algorithm.
  
-Considering that the image is the following:
-![peppers](https://user-images.githubusercontent.com/49486605/75119249-bb3bfb00-5689-11ea-936a-22f7e0869654.png)
+ Exemple: 
+ 
+     peppers.bmp (the name of the image)
+     
+     imagine_criptata.bmp (the name for the encrypted image)
+     
+     secret_key.txt (the file with the secret key)
+ 
+![criptare](https://user-images.githubusercontent.com/49486605/75119766-91390780-568e-11ea-92a8-fb17a18703bd.png)
 
-Applying the encryption algorithm will result in an intermediate image of the encrypted image:
-![imagine_permutata](https://user-images.githubusercontent.com/49486605/75119282-03f3b400-568a-11ea-8c80-a85d054c886e.png)
-
-
-And in the end, the encrypted image will be as follows:
-
-![imagine_criptata](https://user-images.githubusercontent.com/49486605/75119267-e1fa3180-5689-11ea-8b7b-8cc656334bee.png)
 
 ## The second part: Decryption
 
+ The project receives one txt file that contains the path to the encrypted image, a name for the future decrypted image and the secret key used in the decryption algorithm.
+ 
+  Exemple: 
+ 
+     imagine_criptata.bmp (the name of the encrypted image)
+     
+     imagine_decriptata.bmp (the name for the decrypted image)
+     
+     secret_key.txt (the file with the secret key)
+     
+![decriptare](https://user-images.githubusercontent.com/49486605/75119857-613e3400-568f-11ea-9b70-3b332c20c179.png) 
+
 ## The third part: The chi square test
+
+The chi square test is a statistical method assessing the goodness of fit between a set of observed values and those expected theoretically.
 
  
 ## Description of the functions
