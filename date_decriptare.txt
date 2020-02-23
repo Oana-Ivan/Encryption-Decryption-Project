@@ -1,0 +1,3 @@
+imagine_criptata.bmp
+imagine_decriptata.bmp
+secret_key.txt
