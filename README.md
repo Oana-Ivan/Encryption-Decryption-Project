@@ -71,4 +71,4 @@ The chi square test is a statistical method assessing the goodness of fit betwee
    
 8. void testul_chi (const char * cale_imagine)
 
-  Funcţia calculeză frecvenţa estimată, frecvenţa fiecărui pixel al imaginii pe fiecare canal de culoare şi afişează valorile testului     chi calculate cu formula.
+   Funcţia calculeză frecvenţa estimată, frecvenţa fiecărui pixel al imaginii pe fiecare canal de culoare şi afişează valorile testului    chi calculate cu formula.
