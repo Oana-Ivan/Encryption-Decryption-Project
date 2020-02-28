@@ -8,7 +8,7 @@
 ## The first part: Encryption
  The project receives one txt file that contains the path to an image, a name for the future encrypted image and the secret key used in the encryption algorithm.
  
- Exemple: 
+ Example: 
  
      peppers.bmp (the name of the image)
      
@@ -23,7 +23,7 @@
 
  The project receives one txt file that contains the path to the encrypted image, a name for the future decrypted image and the secret key used in the decryption algorithm.
  
-  Exemple: 
+  Example: 
  
      imagine_criptata.bmp (the name of the encrypted image)
      
